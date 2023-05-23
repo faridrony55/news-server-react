@@ -3,7 +3,7 @@ const app = express()
 const cors = require('cors')
 const port = process.env.PORT || 4000
 
- 
+  
 const categories = require('./data/categories.json')
 
 app.use(cors())
